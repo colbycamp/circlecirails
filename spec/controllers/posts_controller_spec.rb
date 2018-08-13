@@ -30,8 +30,9 @@ RSpec.describe PostsController, type: :controller do
   # adjust the attributes here as well.
   let(:valid_attributes) {
     {
-      title: "A new blog post",
-      body: "The body of the post"
+      # title: "A new blog post",
+      title: "FAIL",
+      body: "FAIL"
     }
   }
 
