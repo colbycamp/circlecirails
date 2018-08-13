@@ -15,5 +15,4 @@ RSpec.describe "posts/show", type: :view do
     expect(rendered).to match(/MyText/)
     expect(rendered).to match(/false/)
   end
-  it("is awesome") { fail "needs flamethrower" }
 end
